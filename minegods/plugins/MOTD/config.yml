@@ -1,0 +1,10 @@
+Server-MOTD: 
+  Line-1: "&r&6&lСервер &d&lMineGods &r&6&lот &c&lСкретча &f&l[&b&l1.8-1.15.1&f&l]"
+  Line-2: "&6&l► &r&eДонат: &cminegods.ru &9&l| &fВыживание &9&l|"
+
+JoinGame-MOTD:
+  Enabled: false
+  Messages:
+    - 'minegods.ru'
+
+Max-Players: 999

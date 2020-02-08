@@ -1,0 +1,54 @@
+#
+# Файл регионов WorldGuard
+#
+# ПРЕДУПРЕЖДЕНИЕ: ЭТОТ ФАЙЛ АВТОМАТИЧЕСКИ СГЕНЕРИРОВАН. Если изменить этот файл
+# вручную, имейте в виду, ЧТО ОДИН НЕПРАВИЛЬНО ВВЕДЕННЫЙ СИМВОЛ МОЖЕТ ПОВЕРЕДИТЬ ФАЙЛ. Если
+# WorldGuard будет неспособен разобрать файл, ваши регионы НЕ ЗАГРУЗЯТСЯ, и
+# содержимое этого файла будет сброшено. Пожалуйста, используйте валидатор YAML, такой как
+# http://yaml-online-parser.appspot.com (для небольших файлов).
+#
+# НЕ ЗАБУДЬТЕ ПЕРИОДИЧЕСКИ ДЕЛАТЬ РЕЗЕРВНЫЕ КОПИИ.
+#
+regions:
+    spawn:
+        min: {x: -1113.0, y: 0.0, z: -611.0}
+        max: {x: -798.0, y: 255.0, z: -297.0}
+        members: {}
+        flags: {invincible: allow, pvp: allow, mob-spawning: deny}
+        owners:
+            unique-ids: [c9e66f5a-b9fc-373d-a892-6365f5fa4181, 0abff557-ef30-3bf1-8a14-89536c38982d]
+        type: cuboid
+        priority: 9
+    test:
+        min: {x: -988.0, y: 67.0, z: -626.0}
+        max: {x: -982.0, y: 74.0, z: -617.0}
+        members: {}
+        flags: {}
+        owners:
+            unique-ids: [81ed959b-84be-34d4-aaaf-a6808a3f3def]
+        type: cuboid
+        priority: 0
+    spawnin:
+        min: {x: -1057.0, y: 0.0, z: -562.0}
+        max: {x: -845.0, y: 255.0, z: -350.0}
+        members: {}
+        flags: {invincible: allow, pvp: deny}
+        owners:
+            unique-ids: [c9e66f5a-b9fc-373d-a892-6365f5fa4181, 0abff557-ef30-3bf1-8a14-89536c38982d]
+        type: cuboid
+        priority: 8
+    automine:
+        min: {x: -928.0, y: 46.0, z: -498.0}
+        max: {x: -906.0, y: 68.0, z: -476.0}
+        members: {}
+        flags: {build: allow}
+        owners:
+            unique-ids: [0abff557-ef30-3bf1-8a14-89536c38982d]
+        type: cuboid
+        priority: 10
+    __global__:
+        members: {}
+        flags: {}
+        owners: {}
+        type: global
+        priority: 0

@@ -1,0 +1,20 @@
+lastAccountName: AlexOlolo_01
+timestamps:
+  login: 1579086833754
+  logout: 1579089497223
+ipAddress: 213.24.132.184
+lastlocation:
+  world: world
+  x: -941.5
+  y: 70.0
+  z: -458.5
+  yaw: 4.920794
+  pitch: 0.0
+logoutlocation:
+  world: world
+  x: -947.7903971999698
+  y: 70.90934492310195
+  z: -427.7688673766357
+  yaw: 258.02686
+  pitch: 7.8175864
+godmode: true

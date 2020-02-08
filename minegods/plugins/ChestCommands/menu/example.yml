@@ -1,0 +1,362 @@
+######################
+#+                  +#
+#   MENU SETTINGS    #
+#+                  +#
+######################
+
+menu-settings:
+
+  # name - appears as the title - REQUIRED
+  name: '&1Меню сервера'
+
+  # rows - the number of rows of the chest - REQUIRED
+  rows: 6
+
+  # command - OPTIONAL (you can remove this or set it to '')
+  # Bind multiple commands using ; (command: 'menu; m; me')
+  command: 'menu'
+
+  # auto-refresh - OPTIONAL
+  # How frequently the menu will be refreshed, in seconds.
+  # Useful if you have variables in items' descriptions.
+  auto-refresh: 5
+
+  # This command command will be execute when the menu is opened.
+  # Supports all the icon command types.
+  open-action: 'tell: &eВы открыли меню сервера.'
+
+  # open-with-item - OPTIONAL
+  # The menu will open only right-clicking with orange wool [35:1]
+  open-with-item:
+    id: book
+    left-click: false
+    right-click: true
+
+
+######################
+#+                  +#
+#       ITEMS        #
+#+                  +#
+######################
+
+d1:
+  ID: stained_glass_pane:3
+  POSITION-X: 1
+  POSITION-Y: 1
+  NAME: ''
+d2:
+  ID: stained_glass_pane:3
+  POSITION-X: 2
+  POSITION-Y: 1
+  NAME: ''
+d3:
+  ID: stained_glass_pane:3
+  POSITION-X: 3
+  POSITION-Y: 1
+  NAME: ''
+d4:
+  ID: stained_glass_pane:3
+  POSITION-X: 4
+  POSITION-Y: 1
+  NAME: ''
+d5:
+  ID: stained_glass_pane:3
+  POSITION-X: 5
+  POSITION-Y: 1
+  NAME: ''
+d6:
+  ID: stained_glass_pane:3
+  POSITION-X: 6
+  POSITION-Y: 1
+  NAME: ''
+d7:
+  ID: stained_glass_pane:3
+  POSITION-X: 7
+  POSITION-Y: 1
+  NAME: ''
+d8:
+  ID: stained_glass_pane:3
+  POSITION-X: 8
+  POSITION-Y: 1
+  NAME: ''
+d9:
+  ID: stained_glass_pane:3
+  POSITION-X: 9
+  POSITION-Y: 1
+  NAME: ''
+d10:
+  ID: stained_glass_pane:3
+  POSITION-X: 1
+  POSITION-Y: 2
+  NAME: ''
+d11:
+  ID: stained_glass_pane:3
+  POSITION-X: 3
+  POSITION-Y: 2
+  NAME: ''
+d12:
+  ID: stained_glass_pane:3
+  POSITION-X: 5
+  POSITION-Y: 2
+  NAME: ''
+d13:
+  ID: stained_glass_pane:3
+  POSITION-X: 7
+  POSITION-Y: 2
+  NAME: ''
+d14:
+  ID: stained_glass_pane:3
+  POSITION-X: 9
+  POSITION-Y: 2
+  NAME: ''
+d15:
+  ID: stained_glass_pane:3
+  POSITION-X: 1
+  POSITION-Y: 3
+  NAME: ''
+d16:
+  ID: stained_glass_pane:3
+  POSITION-X: 2
+  POSITION-Y: 3
+  NAME: ''
+d17:
+  ID: stained_glass_pane:3
+  POSITION-X: 3
+  POSITION-Y: 3
+  NAME: ''
+d18:
+  ID: stained_glass_pane:3
+  POSITION-X: 4
+  POSITION-Y: 3
+  NAME: ''
+d19:
+  ID: stained_glass_pane:3
+  POSITION-X: 5
+  POSITION-Y: 3
+  NAME: ''
+d20:
+  ID: stained_glass_pane:3
+  POSITION-X: 6
+  POSITION-Y: 3
+  NAME: ''
+d21:
+  ID: stained_glass_pane:3
+  POSITION-X: 7
+  POSITION-Y: 3
+  NAME: ''
+d22:
+  ID: stained_glass_pane:3
+  POSITION-X: 8
+  POSITION-Y: 3
+  NAME: ''
+d23:
+  ID: stained_glass_pane:3
+  POSITION-X: 9
+  POSITION-Y: 3
+  NAME: ''
+d24:
+  ID: stained_glass_pane:3
+  POSITION-X: 1
+  POSITION-Y: 4
+  NAME: ''
+d25:
+  ID: stained_glass_pane:3
+  POSITION-X: 3
+  POSITION-Y: 4
+  NAME: ''
+d26:
+  ID: stained_glass_pane:3
+  POSITION-X: 5
+  POSITION-Y: 4
+  NAME: ''
+d27:
+  ID: stained_glass_pane:3
+  POSITION-X: 7
+  POSITION-Y: 4
+  NAME: ''
+d28:
+  ID: stained_glass_pane:3
+  POSITION-X: 9
+  POSITION-Y: 4
+  NAME: ''
+d29:
+  ID: stained_glass_pane:3
+  POSITION-X: 1
+  POSITION-Y: 5
+  NAME: ''
+d30:
+  ID: stained_glass_pane:3
+  POSITION-X: 2
+  POSITION-Y: 5
+  NAME: ''
+d31:
+  ID: stained_glass_pane:3
+  POSITION-X: 3
+  POSITION-Y: 5
+  NAME: ''
+d32:
+  ID: stained_glass_pane:3
+  POSITION-X: 4
+  POSITION-Y: 5
+  NAME: ''
+d33:
+  ID: stained_glass_pane:3
+  POSITION-X: 5
+  POSITION-Y: 5
+  NAME: ''
+d34:
+  ID: stained_glass_pane:3
+  POSITION-X: 6
+  POSITION-Y: 5
+  NAME: ''
+d35:
+  ID: stained_glass_pane:3
+  POSITION-X: 7
+  POSITION-Y: 5
+  NAME: ''
+d36:
+  ID: stained_glass_pane:3
+  POSITION-X: 8
+  POSITION-Y: 5
+  NAME: ''
+d37:
+  ID: stained_glass_pane:3
+  POSITION-X: 9
+  POSITION-Y: 5
+  NAME: ''
+d38:
+  ID: stained_glass_pane:3
+  POSITION-X: 2
+  POSITION-Y: 6
+  NAME: ''
+d39:
+  ID: stained_glass_pane:3
+  POSITION-X: 3
+  POSITION-Y: 6
+  NAME: ''
+d40:
+  ID: stained_glass_pane:3
+  POSITION-X: 4
+  POSITION-Y: 6
+  NAME: ''
+d41:
+  ID: stained_glass_pane:3
+  POSITION-X: 5
+  POSITION-Y: 6
+  NAME: ''
+d42:
+  ID: stained_glass_pane:3
+  POSITION-X: 6
+  POSITION-Y: 6
+  NAME: ''
+d43:
+  ID: stained_glass_pane:3
+  POSITION-X: 7
+  POSITION-Y: 6
+  NAME: ''
+d44:
+  ID: stained_glass_pane:3
+  POSITION-X: 8
+  POSITION-Y: 6
+  NAME: ''
+  
+spawncmd:
+  COMMAND: 'spawn'
+  NAME: '&eТелепорт на спавн'
+  LORE:
+    - 'Погнали на спавн?'
+    - 'Кликни, чтобы телепортироваться на спавн'
+  ID: bed
+  POSITION-X: 1
+  POSITION-Y: 6
+
+
+colored-enchanted-stacked-wool:
+  COMMAND: 'warp game'
+  NAME: '&aМини-Игры'
+  LORE:
+    - 'Отправляйся играть!'
+    - 'Кликай!'
+  ID: magma_cream
+  DATA-VALUE: 1
+  AMOUNT: 1
+  POSITION-X: 2
+  POSITION-Y: 4
+
+
+this-text-will-not-appear:
+  COMMAND: 'warp shop'
+  NAME: '&dМагазин'
+  LORE:
+    - 'Хочешь купить вещей? Тогда пошли в магазин!'
+    - 'Кликни, чтобы телепортироваться в магазин'
+  ID: emerald
+  POSITION-X: 2
+  POSITION-Y: 2
+
+
+test-from-console:
+  COMMAND: 'warp automine'
+  NAME: '&cАвтоШахта'
+  LORE:
+    - 'Нужны ресурсы? Кликай сюда!'
+  ID: iron_pickaxe
+  POSITION-X: 4
+  POSITION-Y: 2
+
+
+test-as-op:
+  COMMAND: 'warp parkur'
+  NAME: '&bПаркур'
+  LORE:
+    - 'Считаешь себя крутым?'
+    - 'А ты попробуй пройти паркур!'
+  ID: diamond_boots
+  POSITION-X: 4
+  POSITION-Y: 4
+
+
+test-with-placeholder:
+  COMMAND: 'warp case'
+  NAME: '&eКейсы'
+  LORE:
+    - 'Хочешь выбить крутой донат? Кликай.'
+    - 'Здесь супер-крутые кейсы!'
+  ID: ender_chest
+  POSITION-X: 6
+  POSITION-Y: 2
+
+
+economy-give:
+  COMMAND: 'help'
+  NAME: '&dДоступные команды'
+  LORE:
+    - 'Хочешь посмотреть команды,'
+    - 'которые тебе доступны?'
+    - 'Тогда кликай!'
+  ID: empty map
+  PRICE: 50
+  POSITION-X: 6
+  POSITION-Y: 4
+
+
+economy-take:
+  COMMAND: 'donate'
+  NAME: '&bДонат'
+  LORE:
+    - 'Хочешь купить донат?'
+    - 'Кликай.'
+  ID: diamond
+  POSITION-X: 8
+  POSITION-Y: 2
+
+
+
+
+menu-close-no-commands-no-lore:
+  NAME: '&6Выйти из меню'
+  ID: redstone lamp
+  LORE:
+    - 'Кликни, чтобы выйти из меню.'
+  POSITION-X: 9
+  POSITION-Y: 6

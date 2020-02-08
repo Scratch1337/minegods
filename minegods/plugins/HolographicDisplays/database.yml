@@ -1,0 +1,84 @@
+'1':
+  location: world, -950.5, 73, -483.5
+  lines:
+  - Test Donate Case
+exit1:
+  location: world, -890.5, 72, -451.5
+  lines:
+  - Северный выход
+exit2:
+  location: world, -954.5, 72, -395.5
+  lines:
+  - Восточный выход
+exit3:
+  location: world, -1010.5, 72, -459.5
+  lines:
+  - Южный выход
+exit4:
+  location: world, -946.5, 72, -515.5
+  lines:
+  - Западный выход
+test1:
+  location: world, -920.533, 74.380, -432.585
+  lines:
+  - '&u&l Сайт сервера —> minegods.ru'
+test2:
+  location: world, -921.174, 75.558, -432.515
+  lines:
+  - '&u &l На сервере: {online} шахтёра :D'
+park:
+  location: world, -975.212, 104.186, -416.513
+  lines:
+  - '"Поздравляем, ты прошел паркур"'
+parkur:
+  location: world, -963.703, 73.640, -462.112
+  lines:
+  - 'ICON: diamond boots'
+  - '&b&lПаркур'
+  - ''
+  - '&6Узнай, что будет в конце :)'
+game:
+  location: world, -974.943, 73.050, -483.709
+  lines:
+  - 'ICON: 378'
+  - '&a&lМини-игры'
+  - ''
+  - '&6Давай поиграем? :)'
+automine:
+  location: world, -936.490, 73.418, -486.622
+  lines:
+  - 'ICON: diamond_pickaxe'
+  - '&a&lАвто-шахта'
+  - ''
+  - '&6Нужны ресурсы? Добро пожаловать:)'
+  - ''
+  - '&cШахта будет обновлена через{slowest}%mineresetlite_mine1_time_remaining% минут'
+automine2:
+  location: world, -916.518, 73.418, -467.455
+  lines:
+  - 'ICON: diamond_pickaxe'
+  - '&a&lАвто-шахта'
+  - ''
+  - '&6Нужны ресурсы? Добро пожаловать:)'
+  - ''
+  - '&cШахта будет обновлена через{slowest}%mineresetlite_mine1_time_remaining% минут'
+shop:
+  location: world, -939.393, 71.798, -422.322
+  lines:
+  - Default hologram. Change it with &b/hd edit shop
+spawn1:
+  location: world, -950.510, 72.626, -447.062
+  lines:
+  - Default hologram. Change it with &b/hd edit spawn1
+spawn2:
+  location: world, -956.458, 72.626, -454.817
+  lines:
+  - Default hologram. Change it with &b/hd edit spawn2
+spawn3:
+  location: world, -950.287, 72.626, -462.149
+  lines:
+  - Default hologram. Change it with &b/hd edit spawn3
+spawn4:
+  location: world, -943.128, 72.626, -455.528
+  lines:
+  - Default hologram. Change it with &b/hd edit spawn4

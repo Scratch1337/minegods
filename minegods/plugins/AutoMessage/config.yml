@@ -1,0 +1,61 @@
+#  ----------------------------------------------------
+#  AutoMessage Configuration File
+#  ----------------------------------------------------
+#  Message Configuration:
+#     Messages are handled in lists to allow for advanced customization!
+#     Feel free to add color codes by using & in your messages!
+#     To split a message onto multiple lines use the \n delimiter!
+#     Lines starting with / will be run as a command!
+#     To add single apostrophes into a message use ''.
+#     For a complete tutorial go to http://dev.bukkit.org/server-mods/automessage.
+#     If you are unfamiliar with YAML use the in-game commands: /am help
+
+settings:
+  enabled: true
+  min-players: 0
+  log-to-console: false
+message-lists:
+  json:
+    enabled: true
+    interval: 120
+    expiry: -1
+    random: false
+    messages:
+    - |-
+      {
+        "text": "&7[&cСервер&7] &fНаведи на меня, быстро!",
+        "hoverEvent": {
+            "action": "show_text",
+            "value": [
+              {
+                "text": "Гля че умею",
+                "color": "blue"
+              }
+            ]
+        }
+      }
+    - |-
+      {
+        "text": "&7[&cСервер&7] &fКликни на меня и юзнется команда heal!",
+        "clickEvent": {
+          "action": "run_command",
+          "value": "/heal"
+        }
+      }
+    - |-
+      {
+        "text": "&7[&cСервер&7] &fДонат --> &aMineGods.ru",
+        "clickEvent": {
+          "action": "open_url",
+          "value": "http://minegods.ru"
+        }
+      }
+  regular:
+    enabled: true
+    interval: 120
+    expiry: -1
+    random: false
+    messages:
+    - '&7[&cСервер&7] &fПривет, работяги'
+    - '&7[&cСервер&7] &fПривет, работяги 2'
+    - '&7[&cСервер&7] &fПривет, работяги 3'

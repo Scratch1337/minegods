@@ -1,0 +1,1 @@
+java -Xmx2048M -Xms1024M -jar spigot-1.12.2.jar nogui

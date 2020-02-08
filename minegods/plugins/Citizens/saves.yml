@@ -1,0 +1,198 @@
+# Citizens NPC Storage
+
+last-created-npc-id: 16
+npc:
+  '10':
+    name: Руды
+    uuid: 069d68b9-5498-43b0-bc34-bc9d0e36e367
+    traits:
+      spawned: true
+      trader:
+        guiName: руды
+      location:
+        world: world
+        x: '-904.5'
+        y: '73.0'
+        z: '-416.5'
+        yaw: '90.0477294921875'
+        pitch: '0.0'
+      type: PLAYER
+      gravity:
+        enabled: false
+      lookclose:
+        enabled: false
+        range: '5.0'
+        realisticlooking: false
+      owner:
+        owner: MuteMyMind
+        uuid: 0abff557-ef30-3bf1-8a14-89536c38982d
+    traitnames: gravity,trader,owner,location,equipment,spawned,type,mounttrait,inventory
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '8':
+    name: Инструменты
+    uuid: 422adef0-f758-41d4-b3e7-abcc79dbb1bb
+    traits:
+      spawned: true
+      trader:
+        guiName: инструменты
+      location:
+        world: world
+        x: '-908.5'
+        y: '73.0'
+        z: '-412.5'
+        yaw: '179.26950073242188'
+        pitch: '0.0'
+      type: PLAYER
+      gravity:
+        enabled: false
+      lookclose:
+        enabled: false
+        range: '5.0'
+        realisticlooking: false
+      owner:
+        owner: MuteMyMind
+        uuid: 0abff557-ef30-3bf1-8a14-89536c38982d
+    traitnames: gravity,trader,owner,location,equipment,spawned,type,mounttrait,inventory
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+    metadata:
+      player-skin-textures: eyJ0aW1lc3RhbXAiOjE1NzkwOTYzOTYzNTgsInByb2ZpbGVJZCI6IjA4ZDkzNWZmYTMzZjQ4MGE5MmEwZWZmNTdlZjVkNTJjIiwicHJvZmlsZU5hbWUiOiJBbGV4X29sb2xvIiwic2lnbmF0dXJlUmVxdWlyZWQiOnRydWUsInRleHR1cmVzIjp7IlNLSU4iOnsidXJsIjoiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS80YzdiMDQ2ODA0NGJmZWNhY2M0M2QwMGEzYTY5MzM1YTgzNGI3MzkzNzY4ODI5MmMyMGQzOTg4Y2FlNTgyNDhkIn19fQ==
+      cached-skin-uuid-name: alex_ololo
+      cached-skin-uuid: 08d935ff-a33f-480a-92a0-eff57ef5d52c
+      player-skin-name: alexololo_01
+      player-skin-signature: SBTCZ4m+Cy2lqjx3b6aMJvRuP0Yrd46wHxacuYRUCB49KxLahEzLu+40oG1gsigK0YbsNHehqlV856lcaEYtb1N4Zgc91Ii0zrZGvdoclD2Ykw0fr/oy+erGms5RD/qWabvnOJWYBYQl/XEgojIxhOQTmghh93X+ms2/heo5Ol2u4joqaEY8f66uzD/ESYnGdG8eUmRIzwckkcOJrXh9S+Ur5JI7TjJjEWTkXLIH0/1Pgco7/29T3rrrjuHZPQlpB2N4PN847KqRH8/esXRKvFuBChlvFYzzl9G6qKHa1hzADElKgvTUXvvqnmxwr6vYhj7l8zsKjOLowoaGYYQPhrB8cgCakSFeuEi46xWadz07FocEXbFP8ESXKC0pOxlEq7wtyG9FzjPNDgmIELpWrbiirwIL3tooMyALGthE0egIilOVHHHJfN7NZnkiQaFSMLFzVV7ilF43GJNAZ0LkpZodmOqgBXTRLBlAj3RhfHY2f+KbniWZOEU+eUpHkyd/x3zCYhyQcVdWuzf0U1f0HG04gFO2BndwqIfvXldsBfn9O4TdtwAdzld68+duYATxO8tPZVE5rdfRnBxA/I96EGjV0b5876eCrfG3BdaP64ch8ZQEk3MX0xo1qQ1wxZNRyelnWjb4EJuAmx1HT4brlElT1HJzqWV8HuvbEYfVvrI=
+  '7':
+    name: Оружие
+    uuid: 8b3bca5d-548b-47d4-b3f4-dd940f3f198e
+    traits:
+      spawned: true
+      trader:
+        guiName: оружие
+      location:
+        world: world
+        x: '-914.5'
+        y: '73.0'
+        z: '-412.5'
+        yaw: '-179.7226104736328'
+        pitch: '0.0'
+      type: PLAYER
+      gravity:
+        enabled: false
+      lookclose:
+        enabled: false
+        range: '5.0'
+        realisticlooking: false
+      owner:
+        owner: MuteMyMind
+        uuid: 0abff557-ef30-3bf1-8a14-89536c38982d
+    traitnames: gravity,trader,location,owner,equipment,spawned,type,mounttrait,inventory
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+    metadata:
+      player-skin-textures: eyJ0aW1lc3RhbXAiOjE1ODA1MzQzMDAwNDEsInByb2ZpbGVJZCI6ImY1ODBmMWRkNGNlMDQ1ODM5N2ZmN2QyYjI5NWFhOWI2IiwicHJvZmlsZU5hbWUiOiJTY3JhdGNoMTMzNyIsInNpZ25hdHVyZVJlcXVpcmVkIjp0cnVlLCJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNmZkZmQ5ZThjNjY1ZThjMzM0ZDNjYjNhNzJjNWMzOTI0MzUyOTc4MzZmYzZkNWVlYjNlZWViZGI4NzRjYjZmNiJ9fX0=
+      cached-skin-uuid-name: scratch1337
+      cached-skin-uuid: f580f1dd-4ce0-4583-97ff-7d2b295aa9b6
+      player-skin-name: scratch1337
+      player-skin-signature: odNUyTJk60TFUVa21iKeBLnh5O3bG8ikTmPJRrHk/KygpT/GtkWtLW2SB1Dtaenydv3yfFHzuomvw2w7zJBKtvQPDmHgXuAo3O2rIMaaB8nMV7iDw6Px9U6iqgmTcKXtklZRokWLZ+4B33lSddITHfGesb8a0muKtaEyf//G5mcZEFVyenG2mvvAfJOvNxVdTVVHMiM4zjCn56s2P9NlSMaRuAFiZ5AOrqTxNhQooSRQcHkFQnx5dMf0o1SuSDCqP3AUUhRHHs5bzORK/JnO2lgFOjPPkLfDih80U2qUiuZ9I7U4B2bd6n1f7CTwvomHpJe1KExcwRB327B4xDNaCODSg7AwMiU3bCJxNRtRnfJG+Akg5jkUmAnow2FFJK9BPrtltJtdra5q8xrxnGZ7JmD+aGTo6uDn/RTxtEfc4hqGbIPcVZtQ3TG2ZXyJQUdCS+41tUdCN00tpQqx2lNun1oROT1TJcpj+Ila6Piit1J8b0uEVMHiAeGmfUY4hYmbnz2kO3QYaSJhUCoQBdC3G7ErqLOQv/4lASsw+LRJX6MWNn9u/kbDOA0yP3qnzcAaye/e1SROXN6F5fDmWwDcoCsyRZ8n+Hzozxr+yVZWIv0Oovw/+ysEbpkPvq2zxqFoUdgFwqE9bfGfJh2Qbp0bKwUvW+hgQJtRc/sgqBtTPx8=
+  '6':
+    name: '[Магазин] Блоки'
+    uuid: 5e3840f2-d699-4cf0-97a2-820cd1f4a083
+    traits:
+      spawned: true
+      trader:
+        guiName: блоки
+      location:
+        world: world
+        x: '-920.5'
+        y: '73.0'
+        z: '-412.5'
+        yaw: '179.75942993164062'
+        pitch: '0.0'
+      type: PLAYER
+      gravity:
+        enabled: false
+      lookclose:
+        enabled: false
+        range: '5.0'
+        realisticlooking: false
+      owner:
+        owner: MuteMyMind
+        uuid: 0abff557-ef30-3bf1-8a14-89536c38982d
+    traitnames: poses,gravity,trader,owner,location,equipment,spawned,type,mounttrait,inventory
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+    metadata:
+      player-skin-textures: eyJ0aW1lc3RhbXAiOjE1ODA1MzQyNjIxMzksInByb2ZpbGVJZCI6IjI1M2IxYjJhODY1NTQ3MTM5MzliZjQxZTUzMTM4ZjZhIiwicHJvZmlsZU5hbWUiOiJNdXRlTXlNaW5kIiwic2lnbmF0dXJlUmVxdWlyZWQiOnRydWUsInRleHR1cmVzIjp7IlNLSU4iOnsidXJsIjoiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9hNjIwMjllZTg2ZmMzNGU1YmZlNDYyYmM2ZWFhNWY3NWMxMjE4NGIyM2RiNWJkOGY1NTc1YTE1YjZkMmJlZTA1In19fQ==
+      cached-skin-uuid-name: mutemymind
+      cached-skin-uuid: 253b1b2a-8655-4713-939b-f41e53138f6a
+      player-skin-name: mutemymind
+      player-skin-signature: PDXjN/jUCLhF7mwg9Bg8J5CkEdE/MOZz65CSga99DZR6C7DyHicl7Pmg3Pp9UMMiRAyZEPQWULQqJRwEJfWnauUSegWa0hAM13x5tia5JAFQelF1jJ3arvVsH8XC+v2nD52KspRiFdEZJC6FKpOR0oEJNzjPYpUuWVyefFsNGLiBObXaL0WR4MUVzdSYhJ+9B8Km1vChSLzhii5Tvdh2Lj0d7DusGYwdJX3ltRmXetKq4NhcTZHpv+rM6olCR/Uvleu09SFauZainvjp6dMhPtblICJ18u+tt0fglg1wLAe9/DFSkrMCtWOBieEBhlyVSZ8d42PvDGBkoyuWx9PX/3h6MKuckFmsYWZcwlFAyj10zLViDOQx1Lm6h9Nzk6J/3VEHOa48kbVV91BmuwCI/OBikbN63o1bTPxb0UuYrGjLOMFSdr9kvwHZu8kD4dBkuxC78S47EQFpwPZbVT8IiwVAQ2pZKCQ2JlHq1T3ve/Dg/AbkIEJudsXnDkNMSySxnRPljguEFXqVqNOG4IEvsTcppBDP2pxafDMIQr6qxVwOFuTG7bZjZkPiQYMxZu1ykF/vlCZdFX70c18A9yMY5a3+R5GCyYXhYiTwDNMU8Pl7I+/kgJx9Gba9g5bp/dwR+Xgw2wa06EuoiFlMpsOTtjLKNZBajBWi0rhtwbgkV7A=
+  '13':
+    name: Spleef
+    uuid: 3d05492a-f137-44bc-824c-9bad7c2ce5a8
+    traits:
+      spawned: true
+      gravity:
+        enabled: false
+      location:
+        world: world
+        x: '-983.4528'
+        y: '70.5'
+        z: '-491.3149'
+        yaw: '-23.037551879882812'
+        pitch: '0.0'
+      type: PLAYER
+      lookclose:
+        enabled: false
+        range: '5.0'
+        realisticlooking: false
+      owner:
+        owner: MuteMyMind
+        uuid: 0abff557-ef30-3bf1-8a14-89536c38982d
+    traitnames: gravity,location,owner,equipment,spawned,type,mounttrait,inventory
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+    metadata:
+      player-skin-textures: eyJ0aW1lc3RhbXAiOjE1ODA1MzQyNjU0MDcsInByb2ZpbGVJZCI6ImM0MjRiM2I0YzZmMzQ4MTI5NTBmOWY1YjI0MDdjNWE4IiwicHJvZmlsZU5hbWUiOiJTcGxlZWYiLCJzaWduYXR1cmVSZXF1aXJlZCI6dHJ1ZSwidGV4dHVyZXMiOnt9fQ==
+      cached-skin-uuid-name: spleef
+      cached-skin-uuid: c424b3b4-c6f3-4812-950f-9f5b2407c5a8
+      player-skin-signature: dJsksjcR9X0Wt81ChZ5RU0a987Xd3Lsqv3SAP/xtqgZzpqzSiiyP7VaStaEKZdnYy/KdmxSElVvzTcwMwmSfPdUgvcI1vq3sPuWgJQ1Qa19fKpYOtOp/mvMyk3KqklePyHWit3GVvn1XTZc9YNYCgnfFqAWi8Esuq9Dmr+15T1hTxdikGHQlAVhCkL4E4Bmjpj/KYi/m3dZu/DmDDuqdrNCIK5h861w4WTFi5xtYMEuj+uR/drASaLFEEvWGjIFP7JKxb1sTsWIrHM9ju90sR9+pPBruXYafWaznTAixZg0BqQucgcxvf+TWjEq8KZe7qpkPhH5X/zuDdvZ4meEeLSKTlWZUT08VP9h6m5Pe4Om5NksEfpVWNAb7troAUWQndukafhZmEK/sQbNgzMBW0vy78UtUY1Tc6AwBnoSozKMFiufbpePIgS0BOPVmQmnO2TVvQUU5DgZ1wmWUoUUmANzoqSPNUSe71+ehQH7HsTSAwxw2kK2ZD/gfYnI5IKPlXJYioIrlnY9EoEyjpYOMqi2OLmwqh4o26Vg4CZ+gpaZdNjlQmnd3onP5eRivqtHLpwLHklzybcf2SssLBfvn3HfxDu5fTjiItc+M5wUzGS8gLSbQJ+Go8Q8oXLP6pNb7Ab0ZhRAR/Lo6c3IhPL3EEnUxf1Hbs1xijYnlRZv8rKo=
+  '16':
+    metadata:
+      player-skin-textures: eyJ0aW1lc3RhbXAiOjE1ODA1MzQyNjU1NzUsInByb2ZpbGVJZCI6ImRjYThkYjEyOTQzZTQ4YWI4MGVhOWRkYWIwMjQ1YTQxIiwicHJvZmlsZU5hbWUiOiJ0bnQiLCJzaWduYXR1cmVSZXF1aXJlZCI6dHJ1ZSwidGV4dHVyZXMiOnsiU0tJTiI6eyJ1cmwiOiJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzc1ZWRiYzdkNGQ1YTUzMzY5ZTAzMGUwZDM1YzBiNWY3NzBjN2FjYjNjNjIwOTY1NTZkMzQxOWM5NzI2ZGUyOSJ9fX0=
+      cached-skin-uuid-name: tnt
+      cached-skin-uuid: dca8db12-943e-48ab-80ea-9ddab0245a41
+      player-skin-signature: C2bcyXWfE3Y99JV7LK8jAW0E38NJBzDx7Ue1Jv7UimkRWErp2Bp1d/n93EqSV2DkWxkfbs+pAx3TQFh2fQbUZINzE3nG07VFvkxLpucAtWk1DsaUlD20jNkSnBE3SQ1WSbfwYz3emRp9LVoW4GaQtstMU2KMDaFLBY2JzeJrBql0fCzlTaH6+u9kn1S7yl0gryz+Vak8R0nuvt5DyPpQQ/9fa2llqCR8/EHdrifl7Ll01nRhK2LqM8XHlj+aBGYFji7JVD9DyN4CClevYz6ca1nA9Oxhe5INWtVQHIxFC/OUnbkrX2YU341Goka1e6HHISaFWEriykTz45d+vUtJkp4ISlxScNfZoZPkWuASnNDybXcZ41gPWi2ay3CAM//l9BRjTaE/+69Kt0yh5G7GEE4Ax/pVbCk5oQl+APsqZ8JT//9/ch7At5zghcHhw7gj3qtQ1CTQ5HR/CzNrFMXqZvgmXpVfsptLqi8eU7gYhclysqohfwStPAMjtjYBErGPMTFXdM9SHj6QPpCP4yZgwcQnHXFWTLImnnfsJfBoROxYpez1VZuLVbWrXt+V/zYH1yDDg7Da9XCm7I/H779LXvwo8wWwuBTpEBKd5UPbfZXVymRSg8OIpJUv/0GpxePAejhZfXh6hoF68sKtFoHpdOOjZC137wI+c8rAipXvouY=
+    name: TNT
+    uuid: d0581b69-6a7d-4f22-9d2a-8e9289b1c1ba
+    traits:
+      location:
+        world: world
+        x: '-979.6503'
+        y: '70.5'
+        z: '-489.5998'
+        yaw: '15.55963134765625'
+        pitch: '0.0'
+      spawned: true
+      type: PLAYER
+      gravity:
+        enabled: false
+      owner:
+        owner: MuteMyMind
+        uuid: 0abff557-ef30-3bf1-8a14-89536c38982d
+    traitnames: gravity,owner,location,equipment,spawned,type,mounttrait,inventory
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true

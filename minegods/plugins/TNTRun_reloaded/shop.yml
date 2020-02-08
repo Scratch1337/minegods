@@ -1,0 +1,18 @@
+'1':
+  name: '&7Default double jump'
+  cost: 100
+  material: FEATHER
+  amount: 1
+  permission: shop.default
+  lore:
+  - Basic kit
+  - Cost 100 coins
+  items:
+    '1':
+      material: ''
+      amount: 1
+      displayname: '&cDefault'
+      lore:
+      - Basic kit - double jump
+      enchantments:
+      - KNOCKBACK#1

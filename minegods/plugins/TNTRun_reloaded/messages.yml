@@ -1,0 +1,70 @@
+nopermission: '&7[&6TNTRun&7] &cYou don''t have permission to do this'
+teleporttolobby: '&7[&6TNTRun&7] Teleported to lobby'
+availablearenas: '&7[&6TNTRun&7] Available arenas:&r '
+arenawolrdna: '&7[&6TNTRun&7] Arena world is not loaded'
+arenadisabled: '&7[&6TNTRun&7] Arena is disabled'
+arenarunning: '&7[&6TNTRun&7] Arena already running'
+arenaregenerating: '&7[&6TNTRun&7] Arena is regenerating'
+arenavehicle: '&7[&6TNTRun&7] You can''t join the game while sitting inside a vehicle'
+arenadisabling: '&7[&6TNTRun&7] &6Arena is disabling'
+arenastarting: '&7[&6TNTRun&7] &6Arena already starting'
+playerscountinarena: '&7[&6TNTRun&7] &6Current number of players in arena: {COUNT}
+  players'
+limitreached: '&7[&6TNTRun&7] Arena is full.'
+playerjoinedtoplayer: '&7[&6TNTRun&7] You joined the arena'
+playerjoinedtoothers: '&7[&6TNTRun&7] Player &6{PLAYER} &7joined the arena'
+playerlefttoplayer: '&7[&6TNTRun&7] You left the arena'
+playerlefttoothers: '&7[&6TNTRun&7] Player &6{PLAYER} &7left the game'
+playervotedforstart: '&7[&6TNTRun&7] You voted for game start'
+playeralreadyvotedforstart: '&7[&6TNTRun&7] You already voted'
+arenastarted: '&7[&6TNTRun&7] Arena started. Time limit is {TIMELIMIT} seconds'
+arenacountdown: '&7[&6TNTRun&7] Arena starts in {COUNTDOWN} seconds'
+arenatimeout: '&7[&6TNTRun&7] Time is up. Ending game'
+playerwontoplayer: '&7[&6TNTRun&7] You won the game!'
+playerlosttoplayer: '&7[&6TNTRun&7] You lost the game'
+playerlosttoothers: '&7[&6TNTRun&7] Player &6{PLAYER} &7lost the game'
+playerwonbroadcast: '&7[&6TNTRun&7] &6{PLAYER}&7 won the game on arena &6{ARENA}'
+playerrewardmessage: '&7[&6TNTRun&7] You have been rewarded: &6{REWARD}'
+playerboughtitem: '&7[&6TNTRun&7] You have bought item &6{ITEM} &7for &6{MONEY} &7coins'
+playerboughtwait: '&7[&6TNTRun&7] You will get your items when the game starts'
+notenoughtmoney: '&7[&6TNTRun&7] &cYou need {MONEY} coins to buy this item'
+alreadyboughtitem: '&7[&6TNTRun&7] &cYou already bought item'
+getdoublejumpsaction: '&7&lYour double jumps: &6&l{DB}'
+playernotinarena: '&7[&6TNTRun&7] &cYou are not in an arena'
+gamesplayed: '&7Games played: &6'
+gameswon: '&7Wins: &6'
+gameslost: '&7Losses: &6'
+statsdisabled: '&7[&6TNTRun&7] &cStats are currently disabled'
+helplobby: Teleport to lobby
+helplist: List all arenas &for &cList arena details
+helpjoin: Join the arena
+helpleave: Leave the current arena
+helpvote: Vote to force-start current arena
+helpcmds: View all TNTRun commands
+helpinfo: View plugin info
+helpstats: View player stats
+setuplobby: Set lobby at your current location
+setupcreate: Create a new arena
+setupbounds: Set bounds for arena
+setuploselevel: Set loselevel bounds for arena
+setupspawn: Set arena spawn at your current location
+setupspectate: Set spectator spawn at your current location
+setupfinish: Finish arena and save
+setupdelspectate: Delete spectator spawn for arena
+setupdelay: Set a delay for removing blocks when player steps on it
+setupmax: 'Set maximum players for arena (Default: 15)'
+setupmin: 'Set minimum players for arena (Default: 2)'
+setupvote: 'Set a vote percentage to force-start arena (Default: 0.75)'
+setuptimelimit: 'Set a time limit for arena (Default: 300 seconds)'
+setupcountdown: 'Set a countdown for arena (Default: 15 seconds)'
+setupmoney: Set a money reward for winning player
+setupteleport: Set teleport when you lose or win in arena
+setupdamage: Set a pvp for arena
+setupreloadbars: Reload Bar messages
+setupreloadtitles: Reload Title messages
+setupreloadmsg: Reload arena messages
+setupreloadconfig: Reload config file
+setupenable: Enable arena
+setupdisable: Disable arena
+setupdelete: Delete arena
+setupreward: Set the rewards for the arena

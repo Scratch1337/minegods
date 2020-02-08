@@ -1,0 +1,7 @@
+homes: true
+localeLanguage: en
+localeCountry: US
+MaxHomes: 3
+MaxJobs: 2
+MaxJoinedTowns: 1
+MaxRentedDays: 14

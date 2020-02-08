@@ -1,0 +1,32 @@
+lastAccountName: Scratch1337
+timestamps:
+  login: 1580496764936
+  logout: 1580497907762
+  lastteleport: 1580489686548
+  kits:
+    tools: 1579258009229
+ipAddress: 185.49.242.41
+godmode: false
+afk: false
+logoutlocation:
+  world: world
+  x: -981.9216448467732
+  y: 95.4958121122893
+  z: -428.07674069667684
+  yaw: 9.046875
+  pitch: 29.978897
+lastlocation:
+  world: world
+  x: -924.5670371003033
+  y: 71.0
+  z: -459.67562647157706
+  yaw: 214.17822
+  pitch: 16.591402
+homes:
+  home:
+    world: world
+    x: -976.5544240869986
+    y: 77.0625
+    z: -474.98951507812154
+    yaw: 208.00977
+    pitch: 24.691942

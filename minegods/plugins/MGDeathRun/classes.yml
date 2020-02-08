@@ -1,0 +1,19 @@
+# Used for saving classes. Default class:
+config:
+  kits:
+    default:
+      name: default
+      items: potioneffect:SPEED:99999#1
+      lore: Speed I
+      requires_money: false
+      requires_permission: false
+      money_amount: 100
+      permission_node: minigames.core.kits.default
+    jump:
+      name: jump
+      items: potioneffect:JUMP:99999#1
+      lore: Jump I
+      requires_money: false
+      requires_permission: false
+      money_amount: 100
+      permission_node: minigames.core.kits.jump

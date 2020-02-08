@@ -1,0 +1,19 @@
+lastAccountName: AccountTest02
+timestamps:
+  login: 1579257846417
+  logout: 1579258927326
+ipAddress: 185.49.242.36
+lastlocation:
+  world: world
+  x: -947.5
+  y: 98.0
+  z: -450.5
+  yaw: 3.486968
+  pitch: 0.0
+logoutlocation:
+  world: world
+  x: -913.6007074580391
+  y: 72.0
+  z: -415.2748503361361
+  yaw: 132.5752
+  pitch: 5.338576

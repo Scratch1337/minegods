@@ -1,0 +1,37 @@
+---- Minecraft Crash Report ----
+// You're mean.
+
+Time: 1/30/20, 3:10 AM
+Description: Exception in server tick loop
+
+java.lang.ThreadDeath
+	at java.base/java.lang.Thread.stop(Thread.java:942)
+	at autosaveworld.features.restart.CrashRestartThread.doTask(CrashRestartThread.java:110)
+	at autosaveworld.utils.Threads$SIntervalTaskThread.run(Threads.java:48)
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- System Details --
+Details:
+	Minecraft Version: 1.12.2
+	Operating System: Linux (amd64) version 4.19.0-6-amd64
+	Java Version: 11.0.5, Debian
+	Java VM Version: OpenJDK 64-Bit Server VM (mixed mode, sharing), Debian
+	Memory: 751985120 bytes (717 MB) / 1038155776 bytes (990 MB) up to 2075918336 bytes (1979 MB)
+	JVM Flags: 2 total; -Xmx2048M -Xms1024M
+	IntCache: cache: 0, tcache: 0, allocated: 13, tallocated: 95
+	CraftBukkit Information: 
+   Running: CraftBukkit version git-Spigot-dcd1643-e60fc34 (MC: 1.12.2) (Implementing API version 1.12.2-R0.1-SNAPSHOT) false
+   Plugins: { WorldEdit v6.1.9-SNAPSHOT; com.sk89q.worldedit.bukkit.WorldEditPlugin [], PlayerGraves v1.0 me.mali_plavi.death_chest.Main [], PlaceholderAPI v2.10.4 me.clip.placeholderapi.PlaceholderAPIPlugin [extended_clip, Glare], ClearLag v3.1.0 me.minebuilders.clearlag.Clearlag [bob7l], AutoMessage v2.5.5 com.TeamNovus.AutoMessage.AutoMessage [ELCHILEN0], DevHider v0.8 me.devanonymous.devhider.main [DevAnonymous], Profiles v2.1 eu.iamgio.Profiles.Profiles [iAmGio], BanManager v6.0.2 me.confuser.banmanager.BanManager [confuser], WorldGuard v6.2.2-SNAPSHOT; com.sk89q.worldguard.bukkit.WorldGuardPlugin [], CommandPlayTime v1.0 ru.ZentoFX.cpt.Core [ZentoFX], DonatCase v0.1 ru.master.fix.Main [DiamondDen], AutoSaveWorld v4.15 autosaveworld.core.AutoSaveWorld [_Shevchik_], SkinsRestorer v13.5.1-SNAPSHOT skinsrestorer.bukkit.SkinsRestorer [Th3Tr0LLeR, DoNotSpamPls, Blackfire62, McLive], iDisguise v5.7.3 de.robingrether.idisguise.iDisguise [RobinGrether], AdvancedRandomTeleport v1.01 me.mrmaga.art.Main [MrMaga, planet0111, MaxCode], PermissionsEx v1.23.4 ru.tehkode.permissions.bukkit.PermissionsEx [[t3hk0d3, zml]], MOTD v2.3.2 com.yapzhenyie.Motd.Motd [yapzhenyie], MineResetLite v0.4.7 com.koletar.jj.mineresetlite.MineResetLite [Lyonix, jjKoletar, VirtualByte, TWWSYesterday, Boomclaw, veesayshi], Vault v1.5.6-b49 net.milkbowl.vault.Vault [cereal, Sleaker, mung3r], HideStream v3.9 com.mrmag518.HideStream.Main [mrmag518], ProtocolSupport v4.28 protocolsupport.ProtocolSupport [_Shevchik_, 7kasper, MrPowerGamerBR, gdude2002], MyCommand v5.6.0 it.mri.mycommand.Main [emmerrei a.k.a Ivanpro], SimpleSit v1.6.3 net.apcat.simplesit.SimpleSit [SkyLordJay_], TNTRun_reloaded v6.8.2 tntrun.TNTRun [[_Shevchik_, steve4744]], Essentials v2.17.1.0 com.earth2me.essentials.Essentials [Zenexer, ementalo, Aelux, Brettflan, KimKandor, snowleo, ceulemans, Xeology, KHobbits, md_5, Iaccidentally, drtshock, vemacs, SupaHam, md678685], MinigamesLib v1.13.1 com.comze_instancelabs.minigamesapi.MinigamesAPI [InstanceLabs], Scavenger v1.7-40 com.cnaude.scavenger.Scavenger [cnaude, modwizcode, SirHedgehog, Xephi], WarpPortals v5.6.3 com.mccraftaholics.warpportals.bukkit.PortalPlugin [], AConomy v2.3 ua.abcik.aconomy.Main [Abcik], Citizens v2.0.22-SNAPSHOT (build 1487) net.citizensnpcs.Citizens [aPunch, fullwall], ColoredTags v2.1.3 com.gmail.filoghost.coloredtags.ColoredTags [], ChestCommands v3.1.4 com.gmail.filoghost.chestcommands.ChestCommands [], ViaVersion v2.2.2 us.myles.ViaVersion.ViaVersionPlugin [_MylesC, Matsv], ChatEx v2.2.1 de.thejeterlp.chatex.ChatEX [TheJeterLP], CommandNPC v1.9.1 me.messageofdeath.commandnpc.CommandNPC [messageofdeath], EssentialsSpawn v2.17.1.48 
+   Failed to handle CraftCrashReport:
+java.lang.ThreadDeath
+	at java.base/java.lang.Thread.stop(Thread.java:942)
+	at autosaveworld.features.restart.CrashRestartThread.doTask(CrashRestartThread.java:110)
+	at autosaveworld.utils.Threads$SIntervalTaskThread.run(Threads.java:48)
+
+	Profiler Position: N/A (disabled)
+	Player Count: 0 / 10; []
+	Is Modded: Definitely; Server brand changed to 'Spigot'
+	Type: Dedicated Server (map_server.txt)

@@ -1,0 +1,181 @@
+оружие:
+  title: Оружие
+  command: none
+  permission: none
+  default-shop: buy
+  buy-shop-enabled: true
+  sell-shop-enabled: true
+  trade-shop-enabled: true
+  pages:
+    page-0:
+      size: 54
+инструменты:
+  title: Инструменты
+  command: none
+  permission: none
+  default-shop: buy
+  buy-shop-enabled: true
+  sell-shop-enabled: true
+  trade-shop-enabled: true
+  pages:
+    page-0:
+      size: 54
+руды:
+  title: Руды
+  command: none
+  permission: none
+  default-shop: buy
+  buy-shop-enabled: true
+  sell-shop-enabled: true
+  trade-shop-enabled: true
+  pages:
+    page-0:
+      size: 54
+блоки:
+  title: Блоки
+  command: none
+  permission: none
+  default-shop: buy
+  buy-shop-enabled: true
+  sell-shop-enabled: true
+  trade-shop-enabled: true
+  pages:
+    page-0:
+      size: 54
+      buy-items:
+        item-0:
+          id: 11
+          type: tradable
+          item:
+            ==: org.bukkit.inventory.ItemStack
+            type: LOG
+            amount: 64
+          display-lore: []
+          show-description: true
+          description: []
+          Discount:
+            discount-percentage: 0.0
+            discount-price: 0.0
+            discount-start: 15/01/2020 16:02:05
+            duration: 0
+            discount-end: 15/01/2020 16:02:05
+          trade-price: 10.0
+          show-price: true
+          custom-input: false
+          stack-sale-enabled: false
+          trade-limit: -1
+          limit-reset-seconds: -1
+        item-1:
+          id: 12
+          type: tradable
+          item:
+            ==: org.bukkit.inventory.ItemStack
+            type: LOG
+            damage: 1
+            amount: 64
+          display-lore: []
+          show-description: true
+          description: []
+          Discount:
+            discount-percentage: 0.0
+            discount-price: 0.0
+            discount-start: 15/01/2020 16:02:20
+            duration: 0
+            discount-end: 15/01/2020 16:02:20
+          trade-price: 10.0
+          show-price: true
+          custom-input: false
+          stack-sale-enabled: false
+          trade-limit: -1
+          limit-reset-seconds: -1
+        item-2:
+          id: 13
+          type: tradable
+          item:
+            ==: org.bukkit.inventory.ItemStack
+            type: LOG
+            damage: 2
+            amount: 64
+          display-lore: []
+          show-description: true
+          description: []
+          Discount:
+            discount-percentage: 0.0
+            discount-price: 0.0
+            discount-start: 15/01/2020 16:04:23
+            duration: 0
+            discount-end: 15/01/2020 16:04:23
+          trade-price: 10.0
+          show-price: true
+          custom-input: false
+          stack-sale-enabled: false
+          trade-limit: -1
+          limit-reset-seconds: -1
+        item-3:
+          id: 14
+          type: tradable
+          item:
+            ==: org.bukkit.inventory.ItemStack
+            type: LOG
+            damage: 3
+            amount: 64
+          display-lore: []
+          show-description: true
+          description: []
+          Discount:
+            discount-percentage: 0.0
+            discount-price: 0.0
+            discount-start: 15/01/2020 16:04:32
+            duration: 0
+            discount-end: 15/01/2020 16:04:32
+          trade-price: 10.0
+          show-price: true
+          custom-input: false
+          stack-sale-enabled: false
+          trade-limit: -1
+          limit-reset-seconds: -1
+        item-4:
+          id: 15
+          type: tradable
+          item:
+            ==: org.bukkit.inventory.ItemStack
+            type: LOG_2
+            amount: 64
+          display-lore: []
+          show-description: true
+          description: []
+          Discount:
+            discount-percentage: 0.0
+            discount-price: 0.0
+            discount-start: 15/01/2020 16:04:35
+            duration: 0
+            discount-end: 15/01/2020 16:04:35
+          trade-price: 10.0
+          show-price: true
+          custom-input: false
+          stack-sale-enabled: false
+          trade-limit: -1
+          limit-reset-seconds: -1
+        item-5:
+          id: 16
+          type: tradable
+          item:
+            ==: org.bukkit.inventory.ItemStack
+            type: LOG_2
+            damage: 1
+            amount: 64
+          display-lore: []
+          show-description: true
+          description: []
+          Discount:
+            discount-percentage: 0.0
+            discount-price: 0.0
+            discount-start: 15/01/2020 16:04:39
+            duration: 0
+            discount-end: 15/01/2020 16:04:39
+          trade-price: 10.0
+          show-price: true
+          custom-input: false
+          stack-sale-enabled: false
+          trade-limit: -1
+          limit-reset-seconds: -1

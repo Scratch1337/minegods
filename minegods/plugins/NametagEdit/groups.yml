@@ -1,0 +1,16 @@
+Groups:
+  scratch:
+    Permission: nte.scratch
+    Prefix: '&7[&cСкретч&7] '
+    Suffix: ''
+    SortPriority: 0
+  root:
+    Permission: nte.root
+    Prefix: '&7[&cАдмин&7] '
+    Suffix: ''
+    SortPriority: 1
+  default:
+    Permission: nte.default
+    Prefix: ''
+    Suffix: ''
+    SortPriority: -1

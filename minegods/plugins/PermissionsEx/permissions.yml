@@ -1,0 +1,308 @@
+groups:
+  default:
+    options:
+      default: true
+      prefix: '&7Игрок'
+      suffix: ''
+      weight: '100'
+    permissions:
+    - nte.default
+    - aconomy.help
+    - aconomy.pay
+    - aconomy.top
+    - aconomy.balance.other
+    - aconomy.balance
+    - chestcommands.open.example.yml
+    - essentials.warp.list
+    - essentials.kit
+    - essentials.kits.start
+    - essentials.tpa
+    - essentials.home
+    - worldguard.region.removemember.own.*
+    - worldguard.region.removeowner.own.*
+    - worldedit.selection.pos
+    - worldedit.expand
+    - worldedit.selection.expand
+    - worldedit.wand
+    - worldguard.region.addmember.own.*
+    - worldguard.region.addowner.own.*
+    - worldguard.region.claim
+    - essentials.msg
+    - essentials.sethome
+    - essentials.spawn
+    - art.self
+    - modifyworld.*
+    - essentials.motd
+    - bssentials.motd
+    - authme.player.*
+    - -authme.logout
+    - -authme.unregister
+    - essentials.balance
+    - essentials.balance.others
+    - heavyspleef.player.join
+    - heavyspleef.player.leave
+  mag:
+    options:
+      default: false
+      prefix: '&7[&bМаг&7] &f'
+      suffix: ''
+      weight: '11'
+    permissions:
+    - modifyworld.*
+    - -authme.logout
+    - -authme.unregister
+    inheritance:
+    - default
+  duh:
+    options:
+      default: false
+      prefix: '&7[&eДух&7] &f'
+      suffix: ''
+      weight: '10'
+    permissions:
+    - modifyworld.*
+    - essentials.motd
+    - authme.player.*
+    - -authme.logout
+    - -authme.unregister
+    inheritance:
+    - default
+    - mag
+  phantom:
+    options:
+      default: false
+      prefix: '&7[&2Фантом&7] &f'
+      suffix: ''
+      weight: '9'
+    permissions:
+    - modifyworld.*
+    - essentials.motd
+    - authme.player.*
+    - -authme.logout
+    - -authme.unregister
+    inheritance:
+    - mag
+    - default
+    - duh
+    worlds:
+      mag:
+        inheritance:
+        - default
+  ender:
+    options:
+      default: false
+      prefix: '&7[&5Эндер&7] &f'
+      suffix: ''
+      weight: '8'
+    permissions:
+    - modifyworld.*
+    - essentials.motd
+    - authme.player.*
+    - -authme.logout
+    - -authme.unregister
+    inheritance:
+    - duh
+    - mag
+    - default
+    - phantom
+  angel:
+    options:
+      default: false
+      prefix: '&7[&3Ангел&7] &f'
+      suffix: ''
+      weight: '7'
+    permissions:
+    - skinsrestorer.playercmds
+    - modifyworld.*
+    - essentials.motd
+    - authme.player.*
+    - -authme.logout
+    - -authme.unregister
+    inheritance:
+    - phantom
+    - duh
+    - mag
+    - default
+    - ender
+  demon:
+    options:
+      default: false
+      prefix: '&7[&8Демон&7] &f'
+      suffix: ''
+      weight: '6'
+    permissions:
+    - modifyworld.*
+    - essentials.motd
+    - authme.player.*
+    - -authme.logout
+    - -authme.unregister
+    inheritance:
+    - ender
+    - phantom
+    - duh
+    - mag
+    - default
+    - angel
+  tor:
+    options:
+      default: false
+      prefix: '&7[&1Тор&7] &f'
+      suffix: ''
+      weight: '5'
+    permissions:
+    - modifyworld.*
+    - essentials.motd
+    - authme.player.*
+    - -authme.logout
+    - -authme.unregister
+    inheritance:
+    - angel
+    - ender
+    - phantom
+    - duh
+    - mag
+    - default
+    - demon
+  loki:
+    options:
+      default: false
+      prefix: '&7[&dЛоки&7] &f'
+      suffix: ''
+      weight: '4'
+    permissions:
+    - modifyworld.*
+    - essentials.motd
+    - authme.player.*
+    - -authme.logout
+    - -authme.unregister
+    inheritance:
+    - demon
+    - angel
+    - ender
+    - phantom
+    - duh
+    - mag
+    - default
+    - tor
+  god:
+    options:
+      default: false
+      prefix: '&7[&6Бог&7] &f'
+      suffix: ''
+      weight: '3'
+    permissions:
+    - modifyworld.*
+    - essentials.motd
+    - authme.player.*
+    - -authme.logout
+    - -authme.unregister
+    inheritance:
+    - tor
+    - demon
+    - angel
+    - ender
+    - phantom
+    - duh
+    - mag
+    - default
+    - loki
+  moder:
+    options:
+      default: false
+      prefix: '&7[&9Модер&7] &f'
+      suffix: ''
+      weight: '2'
+    permissions:
+    - modifyworld.*
+    - essentials.motd
+    - authme.player.*
+    - -authme.logout
+    - -authme.unregister
+    inheritance:
+    - loki
+    - tor
+    - demon
+    - angel
+    - ender
+    - phantom
+    - duh
+    - mag
+    - default
+    - god
+  root:
+    permissions:
+    - nte.root
+    - '*'
+    options:
+      prefix: '&cВладелец'
+      suffix: ''
+      weight: '1'
+  scratch:
+    permissions:
+    - nte.scratch
+    - '*'
+    options:
+      prefix: '&cСкретч'
+      suffix: ''
+      weight: '1'
+      
+schema-version: 1
+users:
+  c9e66f5a-b9fc-373d-a892-6365f5fa4181:
+    group:
+    - scratch
+    options:
+      name: Scratch1337
+  3175fb9b-67f1-397b-bbfd-226d2925a870:
+    group:
+    - default
+    options:
+      name: cgcmayflower
+  1db61b24-07a2-3ee4-98d8-24b8ba7d7c9b:
+    group:
+    - demon
+    - god
+    - ender
+    - angel
+    - loki
+    - phantom
+    - duh
+    - default
+    options:
+      name: AccountTest01
+  0abff557-ef30-3bf1-8a14-89536c38982d:
+    group:
+    - loki
+    - root
+    - default
+    options:
+      name: MuteMyMind
+  7ccba458-b090-309c-a53e-46b779f81301:
+    group:
+    - root
+    - god
+    - duh
+    - loki
+    - angel
+    options:
+      name: Alex_ololo
+  81ed959b-84be-34d4-aaaf-a6808a3f3def:
+    group:
+    - angel
+    options:
+      name: AlexOlolo_02
+  433d6f8c-e62c-3d87-b509-bdf4082171e7:
+    group:
+    - mag
+    options:
+      name: AlexOlolo_01
+  7c66c219-0c37-3747-9c39-946e8b772df2:
+    group:
+    - demon
+    - angel
+    - mag
+    - loki
+    - duh
+    - phantom
+    options:
+      name: CallumN2006

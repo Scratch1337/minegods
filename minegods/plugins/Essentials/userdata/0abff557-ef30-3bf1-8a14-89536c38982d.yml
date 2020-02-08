@@ -1,0 +1,21 @@
+lastAccountName: MuteMyMind
+timestamps:
+  login: 1580538549406
+  logout: 1580536320501
+  lastteleport: 1580497039055
+ipAddress: 213.138.90.123
+afk: false
+logoutlocation:
+  world: world
+  x: -946.6619971939928
+  y: 71.0
+  z: -438.9864313007204
+  yaw: 139.99347
+  pitch: 25.499958
+lastlocation:
+  world: world
+  x: -945.02671158317
+  y: 70.0
+  z: -438.8904200780731
+  yaw: 339.22083
+  pitch: 21.899933

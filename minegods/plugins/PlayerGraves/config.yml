@@ -1,0 +1,19 @@
+-952,70,-473:
+  player: MuteMyMind
+  '0':
+    ==: org.bukkit.inventory.ItemStack
+    type: ROTTEN_FLESH
+    amount: 2
+  '1':
+    ==: org.bukkit.inventory.ItemStack
+    type: STRING
+  '2':
+    ==: org.bukkit.inventory.ItemStack
+    type: STONE_PICKAXE
+  '3':
+    ==: org.bukkit.inventory.ItemStack
+    type: STONE_SWORD
+    damage: 11
+  '4':
+    ==: org.bukkit.inventory.ItemStack
+    type: STONE_AXE

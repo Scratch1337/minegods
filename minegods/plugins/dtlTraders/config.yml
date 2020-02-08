@@ -1,0 +1,60 @@
+version: 5.0.0
+
+# Appearance and position of page selectors
+page-selectors:
+  # Back page selector
+  back:
+    # The slots for the item to be in (0-9), empty to hide
+    slots: [2]
+    # Whether to put the item on the top or the bottom of the page
+    position: bottom
+    # Item for when the back selector is active (The user can go back)
+    active:
+      type: emerald_block
+      name: '&a&lНазад'
+    not-active:
+      type: emerald_block
+      name: '&7&lНазад'
+  
+  # Next page selector
+  next:
+    # The slots for the item to be in (0-9), empty to hide
+    slots: [6]
+    # Whether to put the item on the top or the bottom of the page
+    position: bottom
+    # Item for when the back selector is active (The user can go back)
+    active:
+      type: emerald_block
+      name: '&aСледующий'
+    not-active:
+      type: emerald_block
+      name: '&7Следующий'
+  
+  # Exit page selector
+  exit:
+    # The slots for the item to be in (0-9), empty to hide
+    slots: [4]
+    # Whether to put the item on the top or the bottom of the page
+    position: bottom
+    # Item for when the back selector is active (The user can go back)
+    active:
+      type: redstone_block
+      name: '&cВыход'
+
+shop-selectors:
+  slot: 8
+  position: bottom
+  buy:
+    type: stone
+    name: '&aПокупка'
+  sell:
+    type: bedrock
+    name: '&6Продажа'
+  trade:
+    type: diamond_block
+    name: '&bОбмен'
+
+# The string to add in the lore of an item if show-price is set to true
+# Price placeholder: %price%
+buy-price-format: '&7Цена: &a%price% коинов'
+sell-price-format: '&7Цена продажи: &a%price% коинов'

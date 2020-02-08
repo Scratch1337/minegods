@@ -1,0 +1,7 @@
+NPCS:
+  '16':
+    Commands:
+    - 1~~~tr join tnt1~~~noPerm~~~BOTH~~~~~~false~~~false~~~false~~~0.0~~~0~~~0~~~false~~~false
+  '13':
+    Commands:
+    - 1~~~spleef join spleef1~~~noPerm~~~BOTH~~~~~~false~~~false~~~false~~~0.0~~~0~~~0~~~false~~~false

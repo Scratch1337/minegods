@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<game name="spleef1" world="world" enable-rating="true">
+  <flags>
+    <flag name="autostart">2</flag>
+    <flag name="winpoint">
+      <world>world</world>
+      <x>-980.8788674159536</x>
+      <y>70.0</y>
+      <z>-487.008913418493</z>
+      <yaw>167.44482</yaw>
+      <pitch>1.8102252</pitch>
+    </flag>
+    <flag name="spawnpoint">
+      <world>world</world>
+      <x>-1082.3734243883966</x>
+      <y>121.9974127773241</y>
+      <z>-323.5096097951784</z>
+      <yaw>179.58179</yaw>
+      <pitch>16.923456</pitch>
+    </flag>
+    <flag name="lose">
+      <world>world</world>
+      <x>-980.8788674159536</x>
+      <y>70.0</y>
+      <z>-487.008913418493</z>
+      <yaw>167.44482</yaw>
+      <pitch>1.8102252</pitch>
+    </flag>
+    <flag name="lobby">
+      <world>world</world>
+      <x>-1082.3734243883966</x>
+      <y>121.9974127773241</y>
+      <z>-323.5096097951784</z>
+      <yaw>179.58179</yaw>
+      <pitch>16.923456</pitch>
+    </flag>
+    <flag name="bowspleef"/>
+    <flag name="max-players">4</flag>
+    <flag name="min-players">2</flag>
+  </flags>
+  <floors>
+    <floor name="floor_0"/>
+  </floors>
+  <extensions>
+    <extension name="lobby-wall">
+      <start>
+        <x>-923</x>
+        <y>73</y>
+        <z>-423</z>
+        <world>world</world>
+      </start>
+      <end>
+        <x>-923</x>
+        <y>73</y>
+        <z>-421</z>
+      </end>
+    </extension>
+    <extension name="lobby-wall">
+      <start>
+        <x>-923</x>
+        <y>73</y>
+        <z>-423</z>
+        <world>world</world>
+      </start>
+      <end>
+        <x>-923</x>
+        <y>73</y>
+        <z>-421</z>
+      </end>
+    </extension>
+    <extension name="lobby-wall">
+      <start>
+        <x>-923</x>
+        <y>73</y>
+        <z>-423</z>
+        <world>world</world>
+      </start>
+      <end>
+        <x>-923</x>
+        <y>73</y>
+        <z>-421</z>
+      </end>
+    </extension>
+  </extensions>
+  <deathzones>
+    <deathzone name="deathzone_0" regiontype="cuboid">
+      <pos1>
+        <x>-1063</x>
+        <y>118</y>
+        <z>-344</z>
+      </pos1>
+      <pos2>
+        <x>-1103</x>
+        <y>118</y>
+        <z>-304</z>
+      </pos2>
+    </deathzone>
+  </deathzones>
+</game>
